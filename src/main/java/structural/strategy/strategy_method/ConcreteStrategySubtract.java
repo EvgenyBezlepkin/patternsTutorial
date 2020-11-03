@@ -1,0 +1,9 @@
+package structural.strategy.strategy_method;
+
+public class ConcreteStrategySubtract implements Strategy {
+
+    public int execute(int a, int b) {
+        System.out.println("Called ConcreteStrategySubtract's execute()");
+        return a - b;
+    }
+}
