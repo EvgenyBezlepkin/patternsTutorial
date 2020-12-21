@@ -1,9 +1,7 @@
-package spring_patterns.creational.singleton;
+package spring_patterns.singleton;
 
 import org.springframework.context.annotation.Lazy;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
-import java.util.ArrayList;
 
 
 @Service

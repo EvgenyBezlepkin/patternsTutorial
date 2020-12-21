@@ -1,9 +1,8 @@
-package spring_patterns.creational.singleton;
+package spring_patterns.singleton;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.scheduling.annotation.Scheduled;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 

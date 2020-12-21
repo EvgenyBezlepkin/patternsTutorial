@@ -1,6 +1,6 @@
 package spring_patterns;
 
-import spring_patterns.creational.singleton.Singl;
+import spring_patterns.singleton.Singl;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -20,6 +20,7 @@ public class App {
         Singl singl = cac.getBean(Singl.class);
         print(singl.getMethod2());
 
+        // TODO:  Борисов Spring Patterns для взрослых, с 50 мин.
     }
 
     static void print (Object o) {
