@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 public class Singl {
 
     @Autowired
-    @Lazy
+    @Lazy /*инжекция прокси объекта до момента когда он будет вызван реально*/
     Helper h;
 
     public void getMethod(){
