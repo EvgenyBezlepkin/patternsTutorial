@@ -5,8 +5,8 @@ public class App {
     public static void main(String[] args) {
 
         Mediator m = new MediatorImpl();
-        Colleague c1 = new ColleagueImpl(m, "Mike");
-        Colleague c2 = new ColleagueImpl(m, "Bob");
+        Colleague c1 = new ColleagueImpl(m, new User("Mike"));
+        Colleague c2 = new ColleagueImpl(m, new User("Bob"));
 
         m.setColleague(c1);
         m.setColleague(c2);

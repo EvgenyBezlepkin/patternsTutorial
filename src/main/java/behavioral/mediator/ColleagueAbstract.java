@@ -8,6 +8,7 @@ public abstract class ColleagueAbstract implements Colleague{
         this.mediator = mediator;
     }
 
+
     public void send(String message) {
         mediator.send(message, this);
     }
